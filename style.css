@@ -407,6 +407,12 @@ nav a:hover {
   width: 24%;
 }
 
+.photo3 h3 {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .photo6 {
   height: 40%;
 }
