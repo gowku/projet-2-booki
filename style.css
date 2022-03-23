@@ -133,14 +133,7 @@ nav a:hover {
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
 }
-.searchinput::-moz-placeholder {
-  color: black;
-  opacity: 1;
-}
-.searchinput:-ms-input-placeholder {
-  color: black;
-  opacity: 1;
-}
+
 .searchinput::placeholder {
   color: black;
   opacity: 1;
@@ -316,9 +309,9 @@ nav a:hover {
   display: flex;
 }
 
-.img {
+.article-populaire .img {
   object-fit: cover;
-  width: 160px;
+  width: 40%;
   height: 100%;
   border-radius: 30px 0 0 30px;
 }
@@ -328,6 +321,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 60%;
 }
 
 .stars-populaire img {
@@ -406,30 +400,28 @@ nav a:hover {
 .photo3 {
   width: 24%;
 }
-
 .photo3 h3 {
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
 }
-
 .photo6 {
   height: 40%;
 }
 
 /* FOOTER */
-
 footer {
   background-color: #f2f2f2;
-  padding: 16px 0;
-  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
+
 footer div {
   display: flex;
-  justify-content: space-around;
-  width: 80%;
+  justify-content: space-between;
+  padding: 16px 0;
+  margin-top: 50px;
+  width: 1500px;
 }
 footer div ul {
   display: flex;
@@ -438,7 +430,7 @@ footer div ul {
 footer div ul:first-child {
   margin-left: 4%;
 }
-footer ul:last-child {
+footer div ul:last-child {
   margin-right: 4%;
 }
 footer div ul li {
@@ -561,8 +553,12 @@ footer div ul li {
     height: 250px;
   }
 
-  .populaires-article-container .article-populaire .img {
+  /* .populaires-article-container .article-populaire .img {
     width: 300px;
+  } */
+
+  .article-populaire .img {
+    width: 50%;
   }
 
   .activites-article-container {
@@ -601,7 +597,7 @@ footer div ul li {
     margin-bottom: 50px;
   }
 
-  footer {
+  footer div {
     flex-direction: column;
   }
   footer div ul {
