@@ -7,8 +7,16 @@ html {
 }
 
 main {
-  margin: 0 16px;
+  margin: 0 auto;
   max-width: 1500px;
+}
+header,
+.top,
+.filtres,
+.informations,
+.container,
+.activites-container {
+  margin: 0 16px;
 }
 
 a {
@@ -453,6 +461,9 @@ footer div ul li {
 }
 
 @media screen and (max-width: 992px) {
+  main {
+    margin: 0 16px;
+  }
   .logo {
     width: 20%;
   }
@@ -614,7 +625,7 @@ footer div ul li {
   .photo5,
   .photo6 {
     margin-bottom: 100px;
-    height: 350px;
+    height: 200px;
   }
 
   .partie2,
