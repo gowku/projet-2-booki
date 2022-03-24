@@ -202,6 +202,10 @@ nav a:hover {
 .filtrage {
   display: flex;
 }
+.fa-child {
+  /* padding-right: 2px; */
+  width: 18px;
+}
 
 /* INFORMATION */
 
@@ -218,6 +222,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 16px;
 }
 .informations p:first-child i {
   color: #0065fc;
