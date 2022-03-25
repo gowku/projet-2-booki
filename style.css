@@ -270,8 +270,9 @@ nav a:hover {
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   height: auto;
-  margin: 0 0 0 3%;
+  margin: 0 1.5%;
 }
 .articles-container .article-hebergement {
   width: 31%;
